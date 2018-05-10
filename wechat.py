@@ -5,7 +5,7 @@ from wxpy import *
 import requests
 
 
-bot = Bot()
+# bot = Bot()
 bot = Bot(console_qr=2,cache_path="botoo.pkl")
 # 这里的二维码是用像素的形式打印出来！，如果你在win环境上运行，替换为  bot=Bot()
 
